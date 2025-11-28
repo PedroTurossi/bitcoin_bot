@@ -57,3 +57,6 @@ if __name__ == '__main__':
                                 on_message=ao_receber_mensagem,
                                 on_error=erro)
     ws.run_forever(sslopt={'cert_regs': ssl.CERT_NONE})
+
+def print(mensagem):
+    print(mensagem)
